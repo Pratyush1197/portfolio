@@ -1,0 +1,20 @@
+.text{
+    color: var(--primaryexp);
+}
+
+@media (max-width: 800px) {
+    .Exp{
+        position: relative;
+        top: 300px;
+    
+    }
+  
+}
+@media (max-width: 600px) {
+    .Exp{
+        position: relative;
+        top: 300px;
+    
+    }
+  
+}

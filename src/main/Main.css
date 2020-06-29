@@ -1,0 +1,98 @@
+
+h1{
+    position: absolute;
+    font-size: 50px;
+    top: 300px;
+    width: 100%;
+}
+.icons{
+  position: absolute;
+  top: -155px;
+  left: 500px;
+}
+
+.link{
+  left: 80px;
+}
+
+.link:hover{
+   color:#00b369;
+   cursor: pointer;
+}
+.github{
+  left: 0px;
+  position: relative;
+}
+.github:hover {
+  color:#343333;
+  cursor: pointer;
+}
+.Medium:hover {
+  color:  #3b5998;
+  cursor: pointer;
+}
+.fb:hover {
+  color: #146cb6;
+  cursor: pointer;
+  box-shadow: inset 5px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.hvr-grow:hover{
+  transform: scale(3.1);
+}
+
+.fb{
+  left: 160px;
+}
+.Medium{
+  left: 240px;
+}
+@media only screen and (max-width: 783px) {
+    h1{
+    position: relative;
+    font-size: 50px;
+    top: 450px;
+    width: 100%;
+}
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  
+@media (max-width: 800px) {
+    .example {background: green;}
+    .icons{
+      position: absolute;
+      top: -155px;
+      left: 30%;
+    }
+    h1{
+      position: absolute;
+      font-size: 50px;
+      top: 260px;
+      width: 100%;
+  }
+  }
+  @media (max-width: 600px) {
+    .example {background: green;}
+    .icons{
+      position: absolute;
+      top: -155px;
+      left: 25%;
+    }
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  }
+   
+  
