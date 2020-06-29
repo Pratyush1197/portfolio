@@ -16,5 +16,11 @@
         top: 300px;
     
     }
-  
+    @media (max-width: 450px) {
+        .Exp{
+            position: relative;
+            top: 330px;
+        
+        }
+    }
 }
