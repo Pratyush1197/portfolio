@@ -39,6 +39,14 @@ a{
         z-index: 3;
     }
 }
+@media (max-width: 361px) {
+    .gradient-button{
+        position: absolute;
+        margin-top: 2375px;
+        
+        z-index: 3;
+    }
+}
 @media (max-width: 1400px) {
     .gradient-button{
         position: relative;

@@ -99,6 +99,20 @@ h1{
     }
     
   }
+  @media (max-width: 361px) {
+    h1{
+      position: absolute;
+      font-size: 45px;
+      top: 300px;
+      width: 100%;
+  }
+    .icons{
+      position: absolute;
+      top: -155px;
+      left: 10%;
+    }
+    
+  }
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .example {background: blue;}
