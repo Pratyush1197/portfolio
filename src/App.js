@@ -36,7 +36,7 @@ export default class App extends React.Component  {
   constructor(props) {
     super(props);
     this.state = {
-      arr: ["light", "dark", "blue", "yellow", "grey", "lightblue"],
+      arr: ["light", "dark", "blue",  "grey", "lightblue"],
       index: 1,
       theme: "light",
     };

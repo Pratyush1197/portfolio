@@ -8,7 +8,7 @@ class Download extends Component {
 
     return (
       <button className="gradient-button gradient-button-4">
-        <a href = {Pdf} target = "_blank">Download Pdf</a>
+        <a href = {Pdf} target = "_blank">View Resume</a>
       </button>
     );
   }

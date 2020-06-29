@@ -22,8 +22,8 @@ class Article extends Component
         
           <h3 className="article__title">{details.title}</h3>
           <p className="article__excerpt">{details.excerpt}</p>
-          <FaJs style={{ visibility: details.icons == 'js'? "visible" : "hidden",position: "absolute"  }} size='40px' />
-          <FaPython style={{visibility: details.icons == 'python'? "visible" : "hidden"}} size='40px' />
+          <FaJs style={{ visibility: details.icons == 'js'? "visible" : "hidden",position: "absolute",color: '#000000'  }} size='40px' />
+          <FaPython style={{visibility: details.icons == 'python'? "visible" : "hidden",color: '#000000'}} size='40px' />
       
           
       
