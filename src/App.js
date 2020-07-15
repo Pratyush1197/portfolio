@@ -94,7 +94,7 @@ export default class App extends React.Component  {
   
       <Link activeClass="active" to="test1" className="test1" spy={true} smooth={true} duration={1000} ><Cursor/></Link>
      <Element name="test1"></Element>
-     
+    
      <Experience />
      <Link activeClass="active" to="test1" className="test2" spy={true} smooth={true} duration={1000} ><Cursor1 /></Link>
     

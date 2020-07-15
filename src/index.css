@@ -7,7 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 }
-
+::-webkit-scrollbar {
+  width: 12px;  
+}
+::-webkit-scrollbar-track{
+  
+  box-shadow: inset 0 0 2.5px 2px rgba(red, green, blue, alpha)
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(
+    45deg,
+    var(--primarythemegradient2),
+    var(--primarythemegradient1)
+  );
+  border-radius: 3px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

@@ -13,7 +13,7 @@ export default class About extends Component {
         return (
                  
             <div>        
-                <h2>About</h2>
+            
                 </div>
             
          

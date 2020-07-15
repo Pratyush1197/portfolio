@@ -10,7 +10,7 @@ class Experience extends Component
           };
       
       return (
-
+        
        <div className="Exp">
         <Timeline lineColor={'#ddd'}>
           <TimelineItem
@@ -101,6 +101,7 @@ value given from input port and recorded at output port.
 
         </Timeline>
         </div>
+      
       )
     }
   };
