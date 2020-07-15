@@ -43,6 +43,7 @@ componentDidunmount() {
             <div  id="app" className='container'>           
                 <h1 className="a">Skills</h1>
                 <br></br>
+                
                 <ul className="skills">
           {skills.map((skill, index) => 
             <li
