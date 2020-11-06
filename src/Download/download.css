@@ -23,10 +23,34 @@ a{
 .gradient-button-4 {background-image: linear-gradient(to right, var( --primarythemegradient1) 10%,  var(--primaryTheme) 51%,  var(--primarythemegradient2) 100%)}
 .gradient-button-4:hover { background-position: right center; }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     .gradient-button{
         position: absolute;
-        margin-top: 2195px;
+        margin-top: 150px;
+        
+        z-index: 3;
+    }
+}
+@media (width: 768px) {
+    .gradient-button{
+        position: absolute;
+        margin-top: 1300px;
+        
+        z-index: 3;
+    }
+}
+@media (width: 600px) {
+    .gradient-button{
+        position: absolute;
+        margin-top: 1800px;
+        
+        z-index: 3;
+    }
+}
+@media (width: 800px) {
+    .gradient-button{
+        position: absolute;
+        margin-top: 800px;
         
         z-index: 3;
     }
@@ -34,15 +58,15 @@ a{
 @media (max-width: 450px) {
     .gradient-button{
         position: absolute;
-        margin-top: 2300px;
+        margin-top: 2410px;
         
         z-index: 3;
     }
 }
-@media (max-width: 361px) {
+@media (max-width: 360px) {
     .gradient-button{
         position: absolute;
-        margin-top: 2375px;
+        margin-top: 2500px;
         
         z-index: 3;
     }
@@ -51,6 +75,30 @@ a{
     .gradient-button{
         position: relative;
         top: 160px;
+        z-index: 3;
+    }
+}
+@media (min-width: 411px) {
+    .gradient-button{
+        position: relative;
+        top: 160px;
+        background-color: black;
+        z-index: 3;
+    }
+}
+@media (min-width: 360px) {
+    .gradient-button{
+        position: relative;
+        top: 95px;
+        
+        z-index: 3;
+    }
+}
+@media (min-width: 1024px) {
+    .gradient-button{
+        position: relative;
+        top: 170px;
+        
         z-index: 3;
     }
 }

@@ -5,17 +5,36 @@
 @media (max-width: 800px) {
     .Exp{
         position: relative;
-        top: 350px;
+        top: 100px;
     
+    }
+  
+}
+@media (max-width: 360px) {
+    .Exp{
+        position: relative;
+        top: 105px;
+    
+    }
+  
+}
+@media (max-width: 411px) {
+    .Exp{
+        position: relative;
+        top: 115px;
+        margin-top: 85px;
+        
+        
     }
   
 }
 @media (max-width: 600px) {
     .Exp{
         position: relative;
-        top: 300px;
+        top: 100px;
     
     }
+}
     @media (max-width: 450px) {
         .Exp{
             position: relative;
@@ -23,4 +42,11 @@
         
         }
     }
-}
+    @media (width: 768px) {
+        .Exp{
+            position: relative;
+            top: 450px;
+        
+        }
+    }
+

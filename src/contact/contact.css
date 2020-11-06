@@ -167,10 +167,33 @@ section {
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 1000px) {
+@media (min-width: 1024px) {
 
 	.footer-distributed {
 		font: bold 14px sans-serif;
+		top: 200px;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (min-width: 1440px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+		top: 200px;
 	}
 
 	.footer-distributed .footer-company-name{
@@ -261,7 +284,7 @@ section {
 		.footer-distributed{
 			padding: 30px;
 			position: absolute;
-			top: 4950px;
+			top: 5070px;
 			color: #5383d3;
 		}
 	
@@ -298,7 +321,7 @@ section {
 		.footer-distributed{
 			padding: 30px;
 			position: absolute;
-			top: 5000px;
+			top: 5150px;
 			color: #5383d3;
 		}
 	
@@ -329,5 +352,13 @@ section {
 			float: none;
 			
 		}
+	}
+}
+@media (width: 768px) {
+	.footer-distributed{
+		padding: 30px;
+		position: absolute;
+		top: 4000px;
+		color: #5383d3;
 	}
 }
