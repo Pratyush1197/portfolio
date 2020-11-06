@@ -25,7 +25,12 @@
         position: relative;
         top: 400px;
       }
-      
+    }
+    @media (min-width: 1440px) {
+        & {
+          position: relative;
+          top: 420px;
+        }   
     
   }  
     @media (max-width: 900px) {
@@ -33,7 +38,7 @@
         flex-basis: 50%;
         width: 50%;
         position: relative;
-        top: 300px;
+        top: 400px;
       }
     }
     
@@ -52,7 +57,8 @@
     & {
       flex-basis: 200%;
       width: 200%;
-      position: relative;
+      
+      position: absolute;
       margin: 1000px;
       top: 350px;
   

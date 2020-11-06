@@ -52,7 +52,7 @@ h1{
   transition-property: transform;
 }
 .hvr-grow:hover{
-  transform: scale(30.1);
+  transform: scale(3.1);
 }
 
 .fb{
@@ -61,12 +61,13 @@ h1{
 .Medium{
   left: 240px;
 }
-@media only screen and (max-width: 783px) {
+@media only screen and (max-width: 768px) {
     h1{
     position: relative;
     font-size: 30px;
     top: 450px;
     width: 100%;
+    
 }
 
   }
@@ -78,7 +79,21 @@ h1{
     .icons{
       position: absolute;
       top: -155px;
-      left: 30%;
+      left: 37%;
+    }
+    h1{
+      position: absolute;
+      font-size: 30px;
+      top: 260px;
+      width: 100%;
+  }
+  }
+  @media (max-width: 1200px) {
+    .example {background: green;}
+    .icons{
+      position: absolute;
+      top: -155px;
+      left: 38%;
     }
     h1{
       position: absolute;
@@ -119,6 +134,21 @@ h1{
       position: absolute;
       top: -185px;
       left: 10%;
+    }
+    
+  }
+  @media (width: 768px) {
+    h1{
+      position: absolute;
+      font-size: 50px;
+      top: 450px;
+      width: 100%;
+  }
+    .icons{
+      position: absolute;
+      top: -5px;
+      left: 30%;
+
     }
     
   }

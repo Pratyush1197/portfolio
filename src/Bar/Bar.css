@@ -1,14 +1,13 @@
 
 .container {
   max-width: 100%;
-  height: 550px;
+  height: 570px;
   right: 10%;
   width: 95%;
   left: 20%;
   padding-top: 6%;
   padding-left: 1%;
   margin-left: 3%;
-
   top: 2150px;
   box-shadow: 2px 13px 76px 2px rgba(0,0,0,0.75);
   left: 0;
@@ -36,7 +35,7 @@
   }
   .a{
     position: absolute;
-    top: 1%;
+    top: 5%;
   }
     .collapsed  {
       width: 0 !important;
@@ -64,9 +63,6 @@ body {
   font-size: 13px;
 
 }
-.a {
-    
-}
 
 hr {
   height: 1px;
@@ -84,24 +80,53 @@ small {
 .tran {
   transition-duration: 3s;
 }
-@media (max-width: 800px) {
+@media (width: 768px) {
   .container{
   
-      top: 2400px;
-  
+      
+    margin-top: 500px
+  }
+
+}
+@media (max-width: 800px) {
+  .container{
+      position: absolute;
+      
+      top: 10000px;
   }
 
 }
 @media (max-width: 600px) {
   .container{
-      top: 2300px;
+      top: 6990px;
+      margin-top: 100px;
+
   }
 
-} 
+}
+@media (max-width: 1100px) {
+  .container{
+    top: 1700px;
+}
+
+}
+
 @media (max-width: 450px) {
   .container{
       top: 2300px;
       height: 530px;
+  }
+}
+  @media (max-width: 415px) {
+    .container{
+        top: 2300px;
+        height: 530px;
+      
+    
+      }
+     .a{
+      margin-top: 20px;
+     }  
   }
   .skills {
     margin: 20px 50px 3.6% 10px;
@@ -111,7 +136,6 @@ small {
     position: absolute;
     top: 70px;
   }
-
-} 
-
+ 
+ 
 
